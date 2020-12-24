@@ -44,5 +44,34 @@ We will be evaluating
 
 #### Test Cases
 
- 1.  
+ 1.  When a customer chooses any pizza with no toppings, then the user shouldn't be able to select toppings
+ 2.  When a customer chooses any pizza with one topping, then the user should be able to select one topping
+ 3.	 When a customer chooses any pizza with two topping, then the user should be able to select two toppings
+ 4.  When a customer chooses any pizza with one topping only, then the user shouldn't be able to select the second topping
+ 5.  If the customer chooses O quantity, then the user shouldn't be able to click "Place Order" button
+ 6.  If the customer chooses >0 quantity, then the user should be able to click "Place Order" button
+ 7.  When a customer chooses the quantity of any pizza, then the cost updates accordingly
+ 8.  When a customer chooses any pizza with any toppings, then the user shouldn't be able to click "Place Order" without choosing any toppings
+ 9.  The customer shouldn't be able to click "Place Order" without putting his/her Name
+ 10. The customer shouldn't be able to click "Place Order" without putting his/her Phone number
+ 11. The customer should be able to click "Place Order" without putting his Email
+ 12. The customer should be able to choose only one payment option
+ 13. The customer shouldn't be able to choose both payment options
+ 14. When the customer clicks "Reset" button, all fields should be cleared
+ 15. When a customer chooses any pizza with >0 toppings, selects the toppings, enters valid name and phone number and payment information, then the user should be able to click "Place Order" 
+ 16. When a customer chooses any pizza with no toppings, enters valid name and phone number and payment information, then the user should be able to click "Place Order"
+ 
+ #### Defects
+ 
+ 1. When a customer chooses any pizza with >0 toppings, but doesn't select the toppings, enters valid name and phone number and payment information, then the user is able to click "Place Order" 
+ 2. When a customer chooses any pizza with no toppings,  customer is able to choose toppings 
+ 3. Customer can click "Place Order" without putting his/her name
+ 4. Customer can click "Place Order" without putting his/her phone
+ 5. Customer can select both payment methods at the same time
+ 6. The Pizza order form resetting doesn't reset toppings information
+ 
+ 
+ //Since there is only one pizza selection field, it can be named simply "Pizza" and not "Pizza1"
+ 
+ 
 
